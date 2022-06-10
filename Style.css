@@ -1,0 +1,101 @@
+html, *{
+    margin: 0;
+
+}
+html{
+    background: rgb(255,182,192);
+    background: linear-gradient(180deg, rgba(255,182,193,1) 10%, rgba(223,11,80,1) 65%, rgba(0,0,0,1) 100%);
+    max-width: 420px;
+    height: 100%;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+.label {
+    width: 100%;
+    display: inline-block;
+  }
+h1{
+    text-align: center;
+    font-size: 19px;
+    margin: 35px 0 -35px 0;
+    font-family: 'Kalam', cursive;
+    text-shadow: 0.03em 0.04em 0.02em #000
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 7px 0 7px;
+    font-family: 'Special Elite', cursive;
+    z-index: 10;
+    position:relative;
+    font-weight: bold;
+  }
+
+
+
+.right{
+    float:right;
+    height: 97px;
+    object-fit: cover;
+    width: 23%;
+    margin: -33px 5px 0 0;
+    border-radius: 100px;
+}
+.bloco{
+    height: 97px;
+    object-fit: cover;
+    width: 23%;
+    margin: -33px 0 0 0;
+    border-radius: 100px;
+    z-index:-1;
+    position:relative;
+}
+.one{
+    height: 100px;
+    object-fit: cover;
+    width: 23%;
+    margin: -230px 0 300px 0;
+    border-radius: 100px;
+    opacity: 0.7;
+}
+.direita{
+    float: right;
+
+}
+.tabela{
+    border-radius: 7px;
+    height: 300px;
+    margin: 107px 10% 0 10%;
+}
+.music{
+    width: 300px;
+    height: 40px;
+    transform: scale(0.7);
+    margin: -100px 0 15px 55px;
+    border: 3px solid #000;
+    border-radius: 30px;
+}
+    audio::-webkit-media-controls-panel {background-color:rgb(248, 157, 187);}
+.longo{
+    height: 155px;
+    object-fit: cover;
+    width: 25%;
+    margin: 0px 0 0px 0;
+    border-radius: 25px;
+    top: 545px;
+    position: absolute;
+
+}
+.longa{
+    height: 155px;
+    object-fit: cover;
+    width: 25%;
+    margin: 0px 0 0px 0;
+    border-radius: 25px;
+    top: 545px;
+    left: 313px;
+    position: absolute;
+}

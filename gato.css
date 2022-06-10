@@ -1,0 +1,58 @@
+.background{
+    animation: backg 50s linear infinite;
+}
+.animation-horizontal{
+    width: 100%;
+    position: absolute;
+    bottom: 95%;
+    animation: animation 6s linear infinite;
+    right: -300px;
+
+}
+.cato{
+    width: 385px;
+    height: 200px;
+    background-image: url("img/gat.png");
+    position: absolute;
+    animation: cat 1s steps(12) infinite;
+
+
+}
+
+@keyframes cat{
+    100%{
+        background-position: 0 -2393px;
+        overflow: hidden;
+    }
+
+}
+
+@keyframes backg{
+    0%{
+        background-position: 100%;
+    }
+}
+
+@keyframes animation{
+    100%{
+        transform: translateX(-300%);
+        
+    }
+
+
+}
+
+@media screen and (max-width:500px){
+
+    @keyframes backg{
+        
+        0%{
+            background-position: 100%;
+        }
+    }
+
+    .animation-horizontal{
+        animation: animation 4s linear infinite;
+    }
+}
+

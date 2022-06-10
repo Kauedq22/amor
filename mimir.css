@@ -1,0 +1,155 @@
+.container{
+    height: 155px;
+    width: 350px;
+    position: absolute;
+    left: 5%;
+
+}
+.gato{
+    background: radial-gradient(circle, rgba(161,149,131,1) 15%, rgba(220,220,209,1) 55%);
+    height: 65px;
+    width: 80px;
+    border-radius: 0 80px 80px 0;
+    position: absolute;
+    bottom: 60px;
+    right: 50px;
+}
+.oreia{
+    width: 15px;
+    height: 15px;
+    background-color: #3b2f24;
+    position: absolute;
+    bottom: 64px;
+    left: 8px;
+    border-radius: 20px 0 0 0;
+    box-shadow: 25px 0 #3b2f24;
+    filter:blur(1.5px);
+}
+.oio,
+.oio::before{
+    height: 7px;
+    width: 10px;
+    border: 2px solid #2c2c2c;
+    position: absolute;
+    border-radius: 0 0 15px 15px;
+    border-top: none;
+}
+.oio{
+    top: 18px;
+    left: 15px;
+}
+.oio::before{
+    content: "";
+    left: 30px;
+}
+.nariz{
+    background-color: #000;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 32px;
+    left: 25px;
+    box-shadow: 12px 0 #000;
+}
+.nariz:before{
+    content: "";
+    width: 12px;
+    height: 8px;
+    position: absolute;
+    background-color: #000;
+    left: 5px;
+}
+.nariz::after{
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 6px solid #1b1611;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    bottom: 7px;
+    left: 6px;
+}
+.boca{
+    background-color: #2c2c2c;
+    height: 15px;
+    width: 17px;
+    position: absolute;
+    border-radius: 0 0 5px 5px;
+    top: 38px;
+    left: 27px;
+    animation: boca-move 2s infinite;
+    transform-origin: top;
+}
+@keyframes boca-move {
+    50%{
+        transform: scaleY(0.7);
+    }
+}
+.corpo{
+    background: linear-gradient(2deg, rgba(161,149,131,1) 0%, rgba(220,220,209,1) 16%);
+    height: 90px;
+    width: 140px;
+    position: absolute;
+    right: 65px;
+    bottom: 0;
+    border-radius: 60px 60px 0 0;
+    animation: mimi 2s infinite;
+    transform-origin: bottom right;
+}
+@keyframes mimi {
+    50%{
+        transform: scale(0.9, 1.05); 
+    }
+}
+.cola{
+    background: linear-gradient(90deg, rgba(161,149,131,1) 20%, rgba(220,220,209,1) 55%);
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    right: 150px;
+    bottom: 0;
+    border-radius: 20px 0 0 20px;
+}
+.corpo::before {
+    content: "";
+    position: absolute;
+    background-color: #5a523a;
+    height: 12px;
+    width: 30px;
+    border-radius: 6px;
+    bottom: 0;
+    left: 22px;
+    box-shadow: 45px 0 #5a523a;
+}
+.bolha{
+    height: 20px;
+    width: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top: 20px;
+    left: 65px;
+    border-radius: 50px 50px 50px 5px;
+    animation: boia 2s infinite;
+}
+@keyframes boia {
+    50%{
+        transform: scale(1.6);
+    }
+}
+.sombra{
+    height: 10px;
+    width: 240px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 52px;
+    left: 70px;
+    animation: sombrinha 2s infinite;
+}
+@keyframes sombrinha{
+    50%{
+        transform: scaleX(0.7);
+    }
+}
