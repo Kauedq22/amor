@@ -34,14 +34,12 @@ p{
     font-weight: bold;
   }
 
-
-
 .right{
     float:right;
     height: 97px;
     object-fit: cover;
     width: 23%;
-    margin: -33px 5px 0 0;
+    margin: -33px 0px 0 0px;
     border-radius: 100px;
 }
 .bloco{
